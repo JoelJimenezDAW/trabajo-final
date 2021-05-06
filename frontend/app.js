@@ -40,7 +40,7 @@ document.getElementById('book-form')
     } else {
       // Pass the new book to the UI
       ui.addANewBook(formData);
-      ui.renderMessage('New Book Added Successfully', 'success', 2000);
+      ui.renderMessage('Se ha ha añadido correctamente!', 'success', 2000);
     }
 
     e.preventDefault();
