@@ -15,6 +15,7 @@ document.getElementById('book-form')
     const title = document.getElementById('title').value;
     const author = document.getElementById('author').value;
     const isbn = document.getElementById('isbn').value;
+    
     const image = document.getElementById('image').files;
 
     const formData = new FormData();
@@ -39,7 +40,7 @@ document.getElementById('book-form')
     } else {
       // Pass the new book to the UI
       ui.addANewBook(formData);
-      ui.renderMessage('Se ha ha añadido correctamente!', 'success', 2000);
+      ui.renderMessage('New Book Added Successfully', 'success', 2000);
     }
 
     e.preventDefault();
