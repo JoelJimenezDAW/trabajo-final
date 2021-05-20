@@ -1,8 +1,8 @@
 class Book {
-  constructor(nombre, Email, isbn) {
-    this.nombre = nombre;
-    this.Email = Email;
-    this.Alias = Alias;
+  constructor(title, author, isbn) {
+    this.title = title;
+    this.author = author;
+    this.isbn = isbn;
   }
 }
 
