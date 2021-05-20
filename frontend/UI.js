@@ -43,7 +43,7 @@ class UI {
 
   clearBookForm() {
     document.getElementById('book-form').reset();
-    document.getElementById('nombre').focus();
+    document.getElementById('title').focus();
   }
 
   renderMessage(message, colorMessage, secondsToRemove) {
